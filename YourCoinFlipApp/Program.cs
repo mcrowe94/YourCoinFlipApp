@@ -32,11 +32,11 @@ using YourCoinFlipApp;
         Console.WriteLine("Would you like to play again? Please press 1 to say 'Yes' or press 2 for 'No'.");
         userInput = UserInterface.GetUserNumber();
 
-        while (userInput != 1 || userInput != 2)
-        {
-        Console.WriteLine("Incorrect input! \n Try again!");
-        userInput = UserInterface.GetUserNumber();
-        }
+        //while (userInput != 1 || userInput != 2)
+        //{
+        //Console.WriteLine("Incorrect input! \n Try again!");
+        //userInput = UserInterface.GetUserNumber();
+        //}
 
 } while (userInput != 2);
 
