@@ -17,12 +17,11 @@ namespace YourCoinFlipApp
 
         public static int GetUserNumber()
         {
-            int userNumber;
+            int userNumber = 0;
             while (!int.TryParse(Console.ReadLine(), out userNumber))
             {
-                Console.WriteLine("Incorrect input! \n Try again!");
-            }
-
+                Console.WriteLine("Incorrect input! \n Please select either 1 or 2!");
+            }                                             
             return userNumber;
         }
         public static string UserGuess()
